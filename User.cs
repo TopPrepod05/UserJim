@@ -18,4 +18,7 @@ class User
     public User() : 
         this("Данил Колбасенко", "danilkolbasenko@kolbasa.russkiy", "superdanil") {}
 
+    public void Say(string msg) =>
+        System.Console.WriteLine($"{Username}: {msg}");
+
 }
